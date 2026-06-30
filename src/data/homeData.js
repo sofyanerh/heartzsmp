@@ -4,7 +4,7 @@ export const homeData = {
   tagline:
     "A balanced survival experience built for fairness, creativity, and community.",
 
-  backgroundImage: "https://xgamingserver.com/img/game-images/minecraft-hero.webp", 
+  backgroundImage: "/heartzsmp/public/images/hrtliz.png", 
   // later: "/images/banner.jpg"
 
   buttons: {
