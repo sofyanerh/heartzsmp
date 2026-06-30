@@ -4,12 +4,12 @@ export const homeData = {
   tagline:
     "A balanced survival experience built for fairness, creativity, and community.",
 
-  backgroundImage: "/heartzsmp/src/assets/images/minecraft-hero.webp", 
+  backgroundImage: "https://xgamingserver.com/img/game-images/minecraft-hero.webp", 
   // later: "/images/banner.jpg"
 
   buttons: {
-    join: "/how-to-join",
-    discord: "https://discord.gg/yourlink",
+    join: "/heartzsmp/how-to-join",
+    discord: "https://discord.gg/YFGdkykee4",
   },
 },
 
