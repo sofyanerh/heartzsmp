@@ -73,35 +73,51 @@ export default function Home() {
       </section>
 
       {/* SERVER INFO BAR */}
-      <section className="server-info-bar">
-        <div>{serverInfo.version}</div>
-        <div>{serverInfo.platform}</div>
-        <div>{serverInfo.type}</div>
+     <section className="server-info-bar">
+        <div className="info-item">
+          <span className="info-label">Version</span>
+          <span className="info-value">{serverInfo.version}</span>
+        </div>
+
+        <div className="info-item">
+          <span className="info-label">Platform</span>
+          <span className="info-value">{serverInfo.platform}</span>
+        </div>
+
+        <div className="info-item">
+          <span className="info-label">Type</span>
+          <span className="info-value">{serverInfo.type}</span>
+        </div>
       </section>
 
       {/* WHY JOIN */}
       <section className="why-join">
         <h2>Why Join</h2>
 
-        <ul>
+        <div className="why-join-list">
           {whyJoin.map((item, i) => (
-            <li key={i}>{item}</li>
+            <div key={i} className="why-item">
+              <div className="why-dot" />
+              <p>{item}</p>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
 
       {/* CTA */}
       <section className="home-cta">
-        <h2>{cta.title}</h2>
+        <div className="cta-content">
+          <h2>{cta.title}</h2>
 
-        <div className="home-cta-buttons">
-          <a href={cta.join} className="btn primary">
-            Join Server
-          </a>
+          <div className="home-cta-buttons">
+            <a href={cta.join} className="btn primary">
+              Join Server
+            </a>
 
-          <a href={cta.discord} className="btn discord">
-            Join Discord
-          </a>
+            <a href={cta.discord} className="btn discord">
+              Join Discord
+            </a>
+          </div>
         </div>
       </section>
 
