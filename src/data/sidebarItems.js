@@ -1,41 +1,35 @@
 export const sidebarItems = [
-  {
-    section: "Getting Started",
-    items: [
-      { label: "How to Join", path: "/how-to-join", icon: "🚀" },
-      { label: "About Server", path: "/about/overview", icon: "ℹ️" }
-    ]
-  },
+
 
   {
     section: "Rules & Info",
     items: [
-      { label: "Rules", path: "/rules", icon: "📜" },
-      { label: "FAQ", path: "/faq", icon: "❓" }
+      { label: "Rules", path: "/rules", icon: "⤿" },
+      { label: "FAQ", path: "/faq", icon: "⤿" }
     ]
   },
 
   {
-    section: "Systems",
+    section: "Allowed / Not Allowed",
     items: [
-      { label: "Farms & Mods", path: "/farms-mods", icon: "⚙️" }
+      { label: "Farms & Mods", path: "/farms-mods", icon: "⤿" }
     ]
   },
 
   {
     section: "Applications",
     items: [
-      { label: "Staff Apply", path: "/staff-apply", icon: "📝" }
+      { label: "Staff Apply", path: "/staff-apply", icon: "⤿" }
     ]
   },
   {
   section: "Getting Started",
   items: [
-    { label: "How to Join", path: "/how-to-join", icon: "🚀" },
+    { label: "How to Join", path: "/how-to-join", icon: "⤿" },
 
     {
       label: "About Server",
-      icon: "ℹ️",
+      icon: "⤿",
       children: [
         { label: "Overview", path: "/about/overview" },
         { label: "Economy", path: "/about/economy" },

@@ -4,6 +4,9 @@ import Layout from "../components/layout/Layout";
 import Home from "../pages/Home";
 import Rules from "../pages/Rules";
 import FAQ from "../pages/FAQ";
+import FarmsMods from "../pages/FarmsMods";
+import StaffApply from "../pages/StaffApply";
+import HowToJoin from "../pages/HowToJoin";
 
 export default function AppRouter() {
   return (
@@ -18,6 +21,9 @@ export default function AppRouter() {
           {/* MAIN SECTIONS */}
           <Route path="rules" element={<Rules />} />
           <Route path="faq" element={<FAQ />} />
+          <Route path="farms-mods" element={<FarmsMods />} />
+          <Route path="staff-apply" element={<StaffApply />} />
+          <Route path="how-to-join" element={<HowToJoin />} />
 
         </Route>
 

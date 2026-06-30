@@ -1,0 +1,36 @@
+:root {
+  /* Primary Coral Wave palette */
+  --bg: #fff7f2;
+  --surface: #ffffff;
+
+  --text: #1f1f1f;
+  --muted: #6b6b6b;
+
+  --primary-1: #FCEDD8;
+  --primary-2: #FFD464;
+  --primary-3: #FF5E5E;
+  --primary-4: #E23C64;
+  --primary-5: #B0183D;
+
+  --border: rgba(0, 0, 0, 0.08);
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  --transition: 0.2s ease;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}

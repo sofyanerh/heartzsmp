@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Navbar({ toggleSidebar }) {
-  const serverIP = "play.yourserver.com"; // change later
+  const serverIP = "play.heartzsmp.com"; // change later
 
   const [copied, setCopied] = useState(false);
 
@@ -26,7 +26,7 @@ export default function Navbar({ toggleSidebar }) {
         </button>
 
         <div className="logo">
-          🧱 SMP Server
+        HeartzSMP
         </div>
       </div>
 
@@ -51,7 +51,7 @@ export default function Navbar({ toggleSidebar }) {
 
         <button
           className="discord-btn"
-          onClick={() => window.open("https://discord.gg/yourinvite", "_blank")}
+          onClick={() => window.open("https://discord.gg/YFGdkykee4", "_blank")}
         >
           Discord
         </button>
