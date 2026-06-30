@@ -11,7 +11,7 @@ export default function Home() {
           className="home-hero"
           style={{
             backgroundImage: hero.backgroundImage
-              ? `url(${hero.backgroundImage})`
+              ? `url({`${import.meta.env.BASE_URL}images/minecraft-hero.webp`})`
               : "none",
           }}
             >
