@@ -4,7 +4,7 @@ export const homeData = {
   tagline:
     "A balanced survival experience built for fairness, creativity, and community.",
 
-  backgroundImage: "../../src/assets/images/minecraft-hero.webp", 
+  backgroundImage: "/heartzsmp/src/assets/images/minecraft-hero.webp", 
   // later: "/images/banner.jpg"
 
   buttons: {
