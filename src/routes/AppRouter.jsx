@@ -10,7 +10,7 @@ import HowToJoin from "../pages/HowToJoin";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/heartzsmp"> 
       <Routes>
 
         <Route path="/" element={<Layout />}>
