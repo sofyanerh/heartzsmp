@@ -1,6 +1,11 @@
 export const sidebarItems = [
 
-
+  {
+    section: "Home",
+    items: [
+      { label: "Home", path: "/", icon: "⤿" }
+    ]
+  },
   {
     section: "Rules & Info",
     items: [

@@ -4,7 +4,7 @@ export const homeData = {
   tagline:
     "A balanced survival experience built for fairness, creativity, and community.",
 
-  backgroundImage: "../../src/assets/images/pfpppp.png", 
+  backgroundImage: "../../src/assets/images/minecraft-hero.webp", 
   // later: "/images/banner.jpg"
 
   buttons: {
@@ -16,19 +16,19 @@ export const homeData = {
   showcase: [
     {
       title: "",
-      image: "../../src/assets/images/pfpppp.png",
+      image: "../../src/assets/images/hrtliz.png",
     },
     {
       title: "",
-      image: "../../src/assets/images/pfpppp.png",
+      image: "../../src/assets/images/hrtthem.png",
     },
     {
       title: "",
-      image: "../../src/assets/images/pfpppp.png",
+      image: "../../src/assets/images/sofliz.png",
     },
     {
       title: "",
-      image: "../../src/assets/images/pfpppp.png",
+      image: "../../src/assets/images/us.png",
     },
   ],
 

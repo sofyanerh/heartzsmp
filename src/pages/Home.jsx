@@ -17,7 +17,7 @@ export default function Home() {
             >
           <div className="hero-overlay" />
 
-          <h1>{hero.title}</h1>
+          <h1 className="heartz-title">{hero.title}</h1>
 
           <div className="home-hero-buttons">
             <a className="btn primary" href={"/rules"}>
@@ -36,19 +36,32 @@ export default function Home() {
 
       {/* SHOWCASE */}
       <section className="home-showcase">
-        <h2>Gallery</h2>
+  <div className="section-header">
+    <h2>Gallery</h2>
+    <p>Explore some of the creations and places around HeartzSMP.</p>
+  </div>
 
-        <div className="showcase-grid">
-          {showcase.map((item, i) => (
-            <div key={i} className="showcase-card">
-              <img src={item.image} alt={item.title} />
-              <div className="showcase-overlay">
-                {item.title}
-              </div>
-            </div>
-          ))}
+  <div className="showcase-grid">
+    {showcase.map((item, i) => (
+      <div
+        key={i}
+        className={`showcase-card ${
+          i === 0 ? "featured" : ""
+        }`}
+      >
+        <img src={item.image} alt={item.title} />
+
+        <div className="showcase-overlay">
+          <h3>{item.title}</h3>
+
+          {item.description && (
+            <p>{item.description}</p>
+          )}
         </div>
-      </section>
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* FEATURES */}
 

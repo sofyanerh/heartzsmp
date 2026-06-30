@@ -20,13 +20,23 @@ export default function Navbar({ toggleSidebar }) {
     <header className="navbar">
 
       {/* LEFT: MENU TOGGLE */}
-      <div className="navbar-left">
+      <div className="navbar-left" style={{ display: "flex", alignItems: "center" }}>
         <button className="menu-btn" onClick={toggleSidebar}>
           ☰
         </button>
 
-        <div className="logo">
-        HeartzSMP
+        <div
+          className="logo heartz-title"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "0 auto",
+            fontSize: "1.2rem",
+            fontWeight: "bold",
+          }}
+        >
+          HeartzSMP
         </div>
       </div>
 
